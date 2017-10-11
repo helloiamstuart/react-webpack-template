@@ -1,6 +1,15 @@
+/**
+ * todo:
+ * Split dev and production
+ * Moving assets
+ * Compiling assets
+ * Linting/Fixing
+ *
+ *
+ */
+
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
 
 module.exports = {
   entry: './src/index.js',
