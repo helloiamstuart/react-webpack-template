@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './MyComponent.scss'
+import { myComponent } from './style.scss'
 
 export default class MyComponent extends Component {
     render() {
         return (
-            <div className='MyComponent'>
+            <div className={myComponent}>
                 <h1>Hello World!</h1>
             </div>
         )
