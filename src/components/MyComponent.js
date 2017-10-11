@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import { myComponent } from './style.scss'
 
-export default class App extends Component {
+export default class MyComponent extends Component {
     render() {
         return (
-            <div style={{textAlign: 'center'}}>
+            <div className={myComponent}>
                 <h1>Hello World!</h1>
             </div>
         )

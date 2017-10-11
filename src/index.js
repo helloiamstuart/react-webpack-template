@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
+import MyComponent from './components/MyComponent'
 
 ReactDOM.render(
-    <App />,
+    <MyComponent />,
     document.getElementById('root')
 )
